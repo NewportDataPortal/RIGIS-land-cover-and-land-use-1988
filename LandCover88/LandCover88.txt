@@ -1,0 +1,507 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Resource Mapping Center-UMASS at Amherst
+      Originator: RIGIS
+      Publication_Date: 19930101
+      Title: Land Cover & Land Use - 1988; LandCover88
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Providence, Rhode Island
+        Publisher: RIGIS
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 2015. Land Cover & Land Use - 1988; LandCover88. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 16 July 2015).
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: RIGIS
+          Publication_Date: 1989
+          Title: RIGIS Database
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: Land use and land cover as interpreted from 1988 Aerial Photography for state of RI inclusive data set - RIGIS wetlands s44wwt91
+    Purpose: Land Use Planning
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 199301
+    Currentness_Reference: Ground Condition for 1988
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.900191
+      East_Bounding_Coordinate: -71.117399
+      North_Bounding_Coordinate: 42.018935
+      South_Bounding_Coordinate: 41.145520
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: planningCadastre
+      Theme_Keyword: 015
+      Theme_Keyword: Land Use
+      Theme_Keyword: Land Cover
+    Place:
+      Place_Keyword_Thesaurus: GNIS
+      Place_Keyword: United States
+      Place_Keyword: Rhode Island
+      Place_Keyword: northeast
+      Place_Keyword: New England
+  Access_Constraints: None.
+  Use_Constraints:
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Rhode Island Division of Planning
+        Contact_Person: Nancy Hess
+      Contact_Position: Supervising Planner
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: One Capitol Hill
+        City: Providence
+        State_or_Province: RI
+        Postal_Code: 02908-5872
+      Contact_Voice_Telephone: 401-222-6480
+      Contact_Electronic_Mail_Address: nancy.hess@doa.ri.gov
+  Browse_Graphic:
+    Browse_Graphic_File_Name: http://www.rigis.org/images/metadata/planningCadastre/land_use88.gif
+    Browse_Graphic_File_Type: GIF
+  Data_Set_Credit: Resource Mapping Center-UMASS at Amherst; RIGIS
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: RIGIS standards 99 percent; visual inspection of overlays - no field checks
+  Logical_Consistency_Report: visual inspection of overlays - no field checks; visual inspection of overlays on Mylar originals
+  Completeness_Report: topologically complete arc-info polygon coverage; RIGIS standards rms-005 fuzzy-002
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: plus or minus 50 feet; visual inspection of overlays on Mylar originals
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Resource Mapping Center-UMASS at Amherst
+          Publication_Date: 1988 b-w aerial photography; 1990 RIGIS wetlands and 1988 RIGIS roads
+          Title: Aerial Photo's and GIS Coverages
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1988
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: RIGIS
+      Source_Contribution: 1988 b-w aerial photography; 1990 RIGIS wetlands and 1988 RIGIS roads
+    Process_Step:
+      Process_Description: 1988 b-w aerial photography was interpreted and transferred with zts to 24000 mylar base registerer to USGS quad tics and manually digitized on tablet
+      Process_Date: 1990-1991
+    Process_Step:
+      Process_Description: Updated Point of Contact information for this dataset from "John Stachelhaus" to "Nancy Hess."
+      Process_Date: 20150529
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+    Process_Step:
+      Process_Description: Converted E00 file to shapefile. First, imported E00 using the "Import from E00" tool; next, used the "Feature Class to Shapefile" to convert the coverage to a shapefile.
+      Process_Date: 20150707
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 50272
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 50228
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 50272
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 4
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 0
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3800
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999994
+            Longitude_of_Central_Meridian: -71.500000
+            Latitude_of_Projection_Origin: 41.083333
+            False_Easting: 328083.333333
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000512
+          Ordinate_Resolution: 0.000512
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+      Altitude_Resolution: 0.000010
+      Altitude_Encoding_Method: Explicit elevation coordinate included with horizontal coordinates
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Land Cover & Land Use - 1988; LandCover88
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: CODE
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: S44LLU93_
+    Attribute:
+      Attribute_Label: S44LLU93_ID
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      /* -------------------- ITEMS --------------------------------------
+      1  CODE                   4     5     B      -                        -
+      5  DESIG                 30    30     C      -                        -
+      35  EXPLAIN               50    50     C      -                        -
+      85  DOPCODE               50    50     C      -                        -
+      /* ---------------------------------------------------------------------
+      1
+      CODE            =  100
+      DESIG           = URBAN OR BUILT-UP LAND
+      EXPLAIN         =
+      DOPCODE         =
+      2
+      CODE            =  110
+      DESIG           = RESIDENTIAL
+      EXPLAIN         =
+      DOPCODE         =
+      3
+      CODE            =  111
+      DESIG           = RESIDENTIAL
+      EXPLAIN         = HIGH DENSITY GT 8 DWELLING UNITS/AC.
+      DOPCODE         = UA UT
+      4
+      CODE            =  112
+      DESIG           = RESIDENTIAL
+      EXPLAIN         = MEDIUM HIGH DENSITY 4 TO 7.9 DWELLING UNITS/AC.
+      DOPCODE         = URH
+      5
+      CODE            =  113
+      DESIG           = RESIDENTIAL
+      EXPLAIN         = MEDIUM DENSITY 1 TO 3.9 DWELLING UNITS/AC.
+      DOPCODE         = URH
+      6
+      CODE            =  114
+      DESIG           = RESIDENTIAL
+      EXPLAIN         = MEDIUM LOW DENSITY .5 TO .9 DWELLING UNITS/AC.
+      DOPCODE         = URO
+      7
+      CODE            =  115
+      DESIG           = RESIDENTIAL
+      EXPLAIN         = LOW DENSITY LT .5 DWELLING UNITS/AC.
+      DOPCODE         = URF UCR UE
+      8
+      CODE            =  120
+      DESIG           = COMMERCIAL AND SERVICES
+      EXPLAIN         = PRIMARILY SALE OF PRODUCTS AND SERVICES
+      DOPCODE         = UC UH US
+      9
+      CODE            =  130
+      DESIG           = INDUSTRIAL
+      EXPLAIN         = MANUFACTURING DESIGN ASSEMBLY ETC. INDUST PRKS
+      DOPCODE         = UI UL
+      10
+      CODE            =  140
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = TRANSPORTATION UTILITIES COMMUNICATIONS
+      DOPCODE         =
+      11
+      CODE            =  141
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = ROADS DIVIDED H/WAYS GT 200FT. ROW's
+      DOPCODE         = HW UTT
+      12
+      CODE            =  142
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = AIRPORT RUNWAYS TERMINALS PARKING STORAGE
+      DOPCODE         = UTA
+      13
+      CODE            =  143
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = RAILROADS TERMINALS PARKING REPAIR AREAS
+      DOPCODE         = UTR
+      14
+      CODE            =  144
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = WATER SEWER FACILITIES AND BUILDINGS
+      DOPCODE         = FB
+      15
+      CODE            =  145
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = WASTE DISPOSAL AREAS LANDFILLS JUNK YARDS
+      DOPCODE         = D DA
+      16
+      CODE            =  146
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = POWER LINES GT 100FT. ROW'S
+      DOPCODE         = PL
+      17
+      CODE            =  147
+      DESIG           = TRANSPORTATION
+      EXPLAIN         = OTHER WATERBASED TRANS FACILITIES COMMERCIAL DOCK
+      DOPCODE         = UTW
+      18
+      CODE            =  150
+      DESIG           = MIXED URBAN
+      EXPLAIN         = LIGHT INDUST/COMMERCIAL USES
+      DOPCODE         = UI UC MIX
+      19
+      CODE            =  160
+      DESIG           = OTHER URBAN
+      EXPLAIN         =
+      DOPCODE         =
+      20
+      CODE            =  161
+      DESIG           = OTHER URBAN
+      EXPLAIN         = DEV RECREATION URBAN PRKS ZOOS GOLF COURSES
+      DOPCODE         = RP RA RG RPG RM RS RC RD RSK RT RAP RFG RI
+      21
+      CODE            =  162
+      DESIG           = URBAN OPEN SPACE
+      EXPLAIN         = VACANT LAND CEMETERIES
+      DOPCODE         = UO AND SYMBOL
+      22
+      CODE            =  163
+      DESIG           = CEMETERIES
+      EXPLAIN         = CEMETERIES
+      DOPCODE         =
+      23
+      CODE            =  170
+      DESIG           = INSTITUTIONAL
+      EXPLAIN         = EDUCATIONAL HEALTH CORRECTIONAL RELIGIOUS
+      DOPCODE         = UP
+      24
+      CODE            =  200
+      DESIG           = AGRICULTURAL LAND
+      EXPLAIN         =
+      DOPCODE         =
+      25
+      CODE            =  210
+      DESIG           = AGRICULTURAL LAND
+      EXPLAIN         = PASTURE HAY FIELDS -LAND NOT SUITABLE TILLAGE
+      DOPCODE         = P
+      26
+      CODE            =  220
+      DESIG           = AGRICULTURAL LAND
+      EXPLAIN         = CROPLAND INTENSE FARMING AND TILLABLE LAND`
+      DOPCODE         = T TU
+      27
+      CODE            =  230
+      DESIG           = AGRICULTURAL LAND
+      EXPLAIN         = ORCHARDS GROVES NURSERIES
+      DOPCODE         = O N CB
+      28
+      CODE            =  240
+      DESIG           = AGRICULTURAL LAND
+      EXPLAIN         = CONFINED FEEDING ANIMAL RAISING AREAS
+      DOPCODE         = NOT CLASSED
+      29
+      CODE            =  250
+      DESIG           = AGRICULTURAL LAND
+      EXPLAIN         = IDLE AGRICULTURE ABANDONED FIELDS
+      DOPCODE         = AF AO
+      30
+      CODE            =  300
+      DESIG           = FOREST LAND
+      EXPLAIN         =
+      DOPCODE         =
+      31
+      CODE            =  310
+      DESIG           = FOREST LAND
+      EXPLAIN         = DECIDUOUS FOREST GT 80 PERCENT SP.
+      DOPCODE         = F
+      32
+      CODE            =  320
+      DESIG           = FOREST LAND
+      EXPLAIN         = EVERGREEN FOREST GT 80 PERCENT SP.
+      DOPCODE         = F
+      33
+      CODE            =  330
+      DESIG           = FOREST LAND
+      EXPLAIN         = MIXED DECIDUOUS 50 TO 80 PERCENT SP.
+      DOPCODE         = F
+      34
+      CODE            =  340
+      DESIG           = FOREST LAND
+      EXPLAIN         = MIXED EVERGREEN 50 TO 80 PERCENT SP.
+      DOPCODE         = F
+      35
+      CODE            =  400
+      DESIG           = BRUSHLAND
+      EXPLAIN         = SHRUB AND BRUSH AREAS UNDERGOING REFORESTATION
+      DOPCODE         = H F
+      36
+      CODE            =  500
+      DESIG           = WATER
+      EXPLAIN         = RESERVIORS LAKES PONDS
+      DOPCODE         = W
+      37
+      CODE            =  600
+      DESIG           = WETLAND
+      EXPLAIN         = FORESTED AND NON-FORESTED AREAS
+      DOPCODE         = SS M SM SF DM B BP TSM ISM DSM
+      38
+      CODE            =  700
+      DESIG           = BARREN LAND
+      EXPLAIN         =
+      DOPCODE         =
+      39
+      CODE            =  710
+      DESIG           = BARREN LAND
+      EXPLAIN         = BEACHES
+      DOPCODE         = RFB RSB
+      40
+      CODE            =  720
+      DESIG           = BARREN LAND
+      EXPLAIN         = SANDY AREAS OTHER THAN BEACHES
+      DOPCODE         = S
+      41
+      CODE            =  730
+      DESIG           = BARREN LAND
+      EXPLAIN         = ROCK OUTCROPS
+      DOPCODE         = NOT CLASSED
+      42
+      CODE            =  740
+      DESIG           = BARREN LAND
+      EXPLAIN         = STRIP MINES QUARRIES GRAVEL PITS
+      DOPCODE         = SG OM
+      43
+      CODE            =  750
+      DESIG           = BARREN LAND
+      EXPLAIN         = TRANSITIONAL AREAS
+      DOPCODE         = UO
+      44
+      CODE            =  760
+      DESIG           = BARREN LAND
+      EXPLAIN         = MIXED BARREN
+      DOPCODE         = NOT CLASSED
+    Entity_and_Attribute_Detail_Citation: anderson et al
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20060620
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: RI Department of Administration; Division of Information Technology
+        Contact_Person: REQUIRED: The person responsible for the metadata information.
+      Contact_Position: RIGIS Coordinator
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1 Capitol Hill
+        City: Providence
+        State_or_Province: Rhode Island
+        Postal_Code: 02908
+        Country: USA
+      Contact_Voice_Telephone: 401-222-6483
+      Contact_Facsimile_Telephone: 401-222-6482
+      Contact_Electronic_Mail_Address: rigis@admin.ri.gov
+      Hours_of_Service: 8:00 - 3:30
+      Contact_Instructions: E-mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
